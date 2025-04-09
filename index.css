@@ -1,0 +1,223 @@
+.navbar nav {
+    
+    padding: 1rem;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar nav a:hover {
+    color: #64e283;
+}
+.navbar nav a:active {
+    color: #aaa;
+}
+.navbar nav a {
+    transition: color 0.1s ease;
+
+}
+ .navbar{ 
+        background-image: url(Images/greenpillows.avif); min-height: 600px;
+
+        background-repeat: no-repeat ;
+        position: relative;
+        background-size: cover;
+        background-attachment: scroll;
+        display: block;
+        padding: 100px 100px;
+        object-fit: contain;
+        margin: 0 auto;
+        text-align:center;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: white;
+        font-size: larger;
+        
+        
+        
+    }
+    .textinimage{
+        margin-top: 100px;
+        font-weight: bolder;
+    }
+    .navbar .button {
+        background-color: #b4a4a4;
+        color: white;
+        border: none;
+        padding: 16px;
+        width: 20%;
+        font-size: small;
+        font-weight: bolder;
+        background: rgba(0, 1, 1, 0.5);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .India-screen{
+        text-align: center;
+        font-size: large;
+        font: 600;
+
+
+    }
+    .image img{
+        border-radius:15px;
+        width: 15cm;
+        height: 13cm;
+        box-shadow: 1px 7px 15px 1px;
+        
+
+        
+    }
+    .RasiScreen a{
+        color: #64e283;
+        text-decoration: none;
+
+    }
+    .imageandtext{
+        margin-top: 2cm;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .RasiScreen button{
+        border-radius: 30px;
+        border: 1px;
+        padding: 15px;
+        width:40%
+    }
+    #knowmore{
+        background-color: #64e283;
+        color: white;
+    }
+    .RasisArray{
+        text-align: center;
+    }
+    .Image{
+        display: flex;
+        justify-content: space-around;
+    }
+    .textiletext {
+        display: flex;
+        justify-content:space-around ;
+       
+    }
+    .Image img{
+        height: 12cm;
+        border-radius: 10px;
+        width: 8cm;
+        margin: ;
+        
+        
+    }
+    .Client-Praise{
+        text-align: center;
+        margin-bottom: ;
+        
+    }
+    .text{
+
+    }
+    .high-quality-printing{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .highqualityimage img{
+        width: 10cm;
+        border-radius: 10px;
+
+    }
+    .image-icons{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2cm;
+    }
+    .image-icons .aditya{
+       
+        height: 7cm;
+       
+    }
+    .image-icons .arvind{
+       
+        height: 2cm;
+    
+    }
+    .image-icons .raymond{
+        
+        height: 2cm;
+       
+    }
+    .image-icons img{
+        height: 2cm;
+        
+    }
+    .image-icons .raymond img{
+        width: 3cm;
+        height: 1cm;
+        margin-top: 0.5cm;
+    }
+    .logos{
+        margin-top: 1cm;
+        display: flex;
+        justify-content: space-around;
+    }
+    #first-logo{
+        height: 5cm;
+        
+    }
+    #second-logo{
+        height: 2cm;
+        width: 4cm;
+        margin-top: 1.3cm;
+    }
+    #third-logo{
+        height: 2cm;
+        width: 6cm;
+        margin-top: 1.5cm;
+    }
+    #fourth-logo{
+        height: 3cm;
+        width: 3cm;
+        margin-top: 1cm;
+    }
+    #fifth-logo{
+        height: 2.5cm;
+        width: 4cm;
+        margin-top: 1.5cm;
+    }
+    #sixth-logo{
+        height: 5cm;
+        width: 4cm;
+    }
+
+
+    .Rasiscreenprinting{
+        
+
+    }
+    .QualityAssurance{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2cm;
+        background-color: rgb(226, 235, 238);
+        padding: 20px;
+
+    }
+    .RasisArray{
+
+    }
+    .image{
+
+    }
+   
