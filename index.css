@@ -1,3 +1,16 @@
+.body{
+    overflow-x: hidden;
+    padding: 20px;
+}
+.topbar{
+    background-color: #64e283;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.abovequalityassurance{
+    padding: 40px;
+}
 .navbar nav {
     
     padding: 1rem;
@@ -115,7 +128,7 @@
     .Image img{
         height: 12cm;
         border-radius: 10px;
-        width: 8cm;
+        width: 7cm;
         margin: ;
         
         
@@ -159,7 +172,7 @@
        
     }
     .image-icons img{
-        height: 2cm;
+        height: 3cm;
         
     }
     .image-icons .raymond img{
@@ -167,10 +180,14 @@
         height: 1cm;
         margin-top: 0.5cm;
     }
+    .image-icons p{
+        display: flex;
+    }
     .logos{
         margin-top: 1cm;
         display: flex;
         justify-content: space-around;
+        
     }
     #first-logo{
         height: 5cm;
@@ -198,14 +215,39 @@
     }
     #sixth-logo{
         height: 5cm;
-        width: 4cm;
+        width: 3cm;
     }
+    .Showcasing{
+        text-align: center;
+    }
+    .images{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+   
+    .images img{
 
-
-    .Rasiscreenprinting{
+        padding: 10px;
+        justify-content: space-around;
+        
+    }
+    .images #floraldress{
+        width: 8cm;
+        height: 7cm;
+        
         
 
     }
+    .images #dresses{
+        width:7cm ;
+        height:7cm;
+    }
+    .images #bluebed{
+        width:7cm;
+        height:7cm;
+    }
+
     .QualityAssurance{
         display: flex;
         justify-content: space-around;
@@ -214,10 +256,266 @@
         padding: 20px;
 
     }
-    .RasisArray{
+    .map{
+        background-image: url(Images/GoogleMapTA.webp);
+        height: 15cm;
+        margin-top: 2cm;
+    }
+    .reachout{
+        text-align: center;
+    }
+    .contact-info{
+        background-color: white;
+        width: 25%;
+        margin: 40px;
+        padding:20px ;
+        border-radius: 20px;
+        box-shadow: 10px 4px 30px;
 
     }
-    .image{
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        background-color:rgb(37, 37, 37);
+        color: white;
+    }
+  .Legal ul{
+    list-style-type: none;
+    
+}
+.Legal p{
+    text-align: center;
+}
+   .Accounts ul{
+    list-style-type: none;
+   }
+   .Accounts p{
+    text-align: center;
+   }
+   .partrasisarray{
+    padding: 40px;
+   }
+#copyright{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 0px){
+
+    body{
+    padding:0%;
+   }
+    .abovequalityassurance{
+        padding: 40px;
+    }
+    .navbar nav {
+        
+        padding: 1rem;
+       
+    }
+    
+    .navbar nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+        
+        background-color: #aaa;
 
     }
+    
    
+     .navbar{ 
+            background-image: url(Images/greenpillows.avif); min-height: 60vh;
+    
+            background-repeat: no-repeat ;
+            position: relative;
+            background-size: cover;
+            background-attachment: scroll;
+            display: block;
+            padding: 0px 0px;
+            object-fit: contain;
+            margin: 0 auto;
+            text-align:center;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: darken;
+            color: white;
+            font-size: larger;
+            
+            
+            
+        }
+        .textinimage{
+            margin-top: 0%;
+            width: 80vw;
+        }
+        .navbar .button {
+           
+            width: 40vw;
+            margin-bottom: 3%;
+
+            font-size: small;
+            font-weight: bolder;
+            background: rgba(0, 1, 1, 0.5);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+            .image img{
+                border-radius:15px;
+                width: 8cm;
+                height: 5cm;
+                box-shadow: 1px 7px 15px 1px;
+                
+        
+                
+            }
+            .RasiScreen a{
+                color: #64e283;
+                text-decoration: none;
+        
+            }
+            .imageandtext{
+                margin-top: 2cm;
+                display: grid;
+                justify-content:none;
+        
+            }
+            .QualityAssurance{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 2cm;
+                background-color: rgb(226, 235, 238);
+                padding: 0.2px;
+        
+           
+
+
+            }
+
+            .RasisArray{
+                text-align: center;
+            }
+            .Image{
+                display: flex;
+                justify-content: space-around;
+            }
+            .textiletext {
+                display: flex;
+                justify-content:none;
+                width: 4cm;
+               
+            }
+            .textiletext p{
+                font-size: small;
+            }
+            .Image img{
+                height: 5cm;
+               
+                width: 3cm;
+             
+                
+                
+            }
+            .Client-Praise{
+                text-align: center;
+               
+                
+            }
+
+            .image-icons{
+                display: flex;
+                justify-content:space-around;
+                margin-top: 2cm;
+            }
+            .image-icons .aditya{
+               
+                height: 7cm;
+               
+            }
+            .image-icons .arvind{
+               
+                height: 2cm;
+            
+            }
+            .image-icons .raymond{
+                
+                height: 2cm;
+               
+            }
+            .image-icons img{
+                height: 1.5cm;
+                
+            }
+            .image-icons .raymond img{
+                width: 2cm;
+                height: 1cm;
+                margin-top: 0.5cm;
+            }
+            .image-icons p{
+                display: flex;
+            }
+
+            .high-quality-printing{
+                display: block;
+                justify-content: space-around;
+            }
+        
+            .highqualityimage img{
+                width: 9cm;
+                border-radius: 10px;
+            }
+
+            .logos{
+                margin-top: 1cm;
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            #first-logo{
+                height: 2cm;
+                
+            }
+            #second-logo{
+                height: 1cm;
+                width: 2cm;
+                margin-top: 0.5cm;
+            }
+            #third-logo{
+                height: 1cm;
+                width: 2cm;
+                margin-top: 0.5cm;
+            }
+            #fourth-logo{
+                height: 2cm;
+                width: 3cm;
+                margin-top: 0.2cm;
+            }
+            #fifth-logo{
+                height: 1.5cm;
+                width: 2cm;
+                margin-top: 0.5cm;
+            }
+            #sixth-logo{
+                height: 5cm;
+                width: 3cm;
+            }
+
+            @media only screen and ( max-width: 800px) and (min-width: 501px){
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width: 1200px) and (min-width: 801px){
+
+
+
+
+
+
+}
