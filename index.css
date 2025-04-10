@@ -302,6 +302,10 @@
     background-color: rgb(37, 37, 37);
     color: white;
     padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(37, 37, 37);
 }
 
 @media only screen and (max-width: 500px) and (min-width: 0px){
@@ -553,10 +557,6 @@
 
 
             @media only screen and ( max-width: 800px) and (min-width: 501px){
-
-
-
-
 
 
 
