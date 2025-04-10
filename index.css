@@ -159,6 +159,7 @@
     .image-icons .aditya{
        
         height: 7cm;
+
        
     }
     .image-icons .arvind{
@@ -169,10 +170,11 @@
     .image-icons .raymond{
         
         height: 2cm;
+        margin-top: 0.4cm;
        
     }
     .image-icons img{
-        height: 3cm;
+        height: 2cm;
         
     }
     .image-icons .raymond img{
@@ -190,27 +192,28 @@
         
     }
     #first-logo{
-        height: 5cm;
+        height: 4cm;
+        width: 3cm;
         
     }
     #second-logo{
-        height: 2cm;
-        width: 4cm;
+        height: 1cm;
+        width: 2cm;
         margin-top: 1.3cm;
     }
     #third-logo{
-        height: 2cm;
-        width: 6cm;
+        height: 1cm;
+        width: 4cm;
         margin-top: 1.5cm;
     }
     #fourth-logo{
-        height: 3cm;
-        width: 3cm;
+        height: 2cm;
+        width: 2cm;
         margin-top: 1cm;
     }
     #fifth-logo{
-        height: 2.5cm;
-        width: 4cm;
+        height: 1.5cm;
+        width: 3cm;
         margin-top: 1.5cm;
     }
     #sixth-logo{
@@ -399,19 +402,24 @@
             .Image{
                 display: flex;
                 justify-content: space-around;
-            }
-            .textiletext {
-                display: flex;
-                justify-content:none;
-                width: 4cm;
-               
+
             }
             .textiletext p{
+                display: flex;
+                justify-content:none;
+                width: 2cm;
+                height: 5cm;
                 font-size: small;
+
+               
+            }
+            .textiletext h1{
+                font-size: small;
+
             }
             .Image img{
                 height: 5cm;
-               
+               padding: 3px;
                 width: 3cm;
              
                 
@@ -477,29 +485,72 @@
                 
             }
             #second-logo{
-                height: 1cm;
+                height: 0.8cm;
                 width: 2cm;
                 margin-top: 0.5cm;
             }
             #third-logo{
-                height: 1cm;
-                width: 2cm;
-                margin-top: 0.5cm;
+                height: 0.5cm;
+                width: 1cm;
+                margin-top: 0.6cm;
             }
             #fourth-logo{
-                height: 2cm;
+                height: 1.5cm;
                 width: 3cm;
                 margin-top: 0.2cm;
             }
             #fifth-logo{
-                height: 1.5cm;
+                height: 1cm;
                 width: 2cm;
                 margin-top: 0.5cm;
             }
             #sixth-logo{
-                height: 5cm;
-                width: 3cm;
+                height: 2cm;
+                width: 2cm;
             }
+            .images{
+                display: flex;
+                justify-content: space-around;
+
+                
+            }
+           
+            .images img{
+        
+                padding: 10px;
+                justify-content: space-around;
+            
+            }
+            .images #floraldress{
+                width: 2cm;
+                height: 3cm;
+    
+            }
+            .images #dresses{
+                width:3cm ;
+                height:3cm;
+            }
+            .images #bluebed{
+                width:3cm;
+                height:3cm;
+            }
+            .map{
+                background-image: url(Images/GoogleMapTA.webp);
+                height: 15cm;
+                margin-top: 2cm;
+            }
+            .reachout{
+                text-align: center;
+            }
+            .contact-info{
+                background-color: white;
+                width: 60%;
+                margin: 40px;
+                padding:20px ;
+               
+            }
+        
+
 
             @media only screen and ( max-width: 800px) and (min-width: 501px){
 
